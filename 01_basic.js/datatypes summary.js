@@ -1,29 +1,37 @@
-// primitive
+//  Primitive
 
-// 7 types :String, Number,Boolearn,null,undefined,symbol,BigInt
-  const score =100
-  const scoreValue=100.3
+//  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
 
-  const isLoggedIn= false
-  const outsideTemp = null
-  let userEmail;
+const score = 100
+const scoreValue = 100.3
 
-  const id= Symbol('123')
-  const anotherId =Symbol('123')
-  console.log(id == anotherId)
- // const bigNumber=91990702317562841345n
+const isLoggedIn = false
+const outsideTemp = null
+let userEmail;
 
- // Reference (Non primitive)
+const id = Symbol('123')
+const anotherId = Symbol('123')
 
- // Array,objects,Functions
-  const heros =["shubham", "naaraj","shubham"] //Array
-  let myobj ={ //object
-    name:"shubahm kumar Mishra",
-    age:22,
-  }
-  // Funcation
-   const myFuncation =function(){
-    console.log("hello world")
-   }
-   console.log(typeof bigNumber)
+console.log(id === anotherId);
 
+// const bigNumber = 3456543576654356754n
+
+
+
+// Reference (Non primitive)
+
+// Array, Objects, Functions
+
+const heros = ["shaktiman", "naagraj", "doga"];
+let myObj = {
+    name: "hitesh",
+    age: 22,
+}
+
+const myFunction = function(){
+    console.log("Hello world");
+}
+
+console.log(typeof anotherId);
+
+// https://262.ecma-international.org/5.1/#sec-11.4.3
